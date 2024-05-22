@@ -20,5 +20,6 @@ ${EMAIL_ALREADY_TAKEN_WARNING}    //*[@id="error_explanation"]/ul/li/text()
 
 ${CAMPAIGNS_BUTTON}               //a[text()='Campaigns']
 ${ADD_NEW_CAMPAING_BUTTON}        //a[text()='Add New Campaign']
+${EDIT_CAMPAING_BUTTON}           //a[text()='Edit']
 ${CAMPAIGN_NAME}                  //input[@name='campaign[name]']
 ${CAMPAIGN_DESCRIPTION}           //input[@name='campaign[description]']

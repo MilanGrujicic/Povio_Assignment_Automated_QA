@@ -12,6 +12,9 @@ Register New Valid User
     NAVIGATE TO SIGN UP PAGE
     SIGN UP NEW USER
 
-User Add New Campaign
+User Adds New Campaign
     LOG IN AS USER
     ADD A NEW CAMPAIGN
+
+User Edits Existing campaing
+    
