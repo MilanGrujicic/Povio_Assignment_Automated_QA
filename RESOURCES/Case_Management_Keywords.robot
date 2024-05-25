@@ -29,7 +29,7 @@ SIGN UP NEW USER
     Click    ${UNIVERSAL_FORM_BUTTON}
     ${is_warning_present}=    Run Keyword And Return Status    Get Element    ${EMAIL_ALREADY_TAKEN_WARNING}
     IF    ${is_warning_present} == True
-        Fail    Email has already been taken.
+        Fail    Email ${EMAIL} has already been taken.
         Take Screenshot
     END
     Wait For Elements State    ${SIGNED_UP_SUCCESSFULLY_WARNING}    visible
